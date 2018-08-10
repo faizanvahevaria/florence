@@ -101,6 +101,7 @@ gulp.task('build', function(callback) {
     'clean:dist',
     'sass',
     ['useref', 'images', 'fonts'],
+    'buildJekyll',
     callback
   )
 })
