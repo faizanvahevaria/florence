@@ -1,0 +1,5 @@
+### Jekyll ###
+jekyll-source/_site
+jekyll-source/.sass-cache
+jekyll-source/.jekyll-metadata
+jekyll-source/Gemfile.lock
