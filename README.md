@@ -1,2 +1,0 @@
-# florence
-Client Project
