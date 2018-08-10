@@ -121,6 +121,6 @@ gulp.task('buildJekyll', function () {
   	stdout: true // default = true, false means don't write stdout
   };
   return gulp.src('./')
-    .pipe( exec('jekyll build -s jekyll-source -d ./dist/blog', options) )
+    .pipe( exec('jekyll build -s ./jekyll-source -d ./dist/blog', options) )
     .pipe( exec.reporter(reportOptions) );
 });
