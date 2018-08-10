@@ -5,7 +5,6 @@ jekyll-source/.jekyll-metadata
 jekyll-source/Gemfile.lock
 
 
-node_modules
 dist
 
 ### MacOS ###
